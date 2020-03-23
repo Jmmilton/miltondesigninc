@@ -1,0 +1,30 @@
+:root {
+  --default-padding: 60px 0;
+  --section-color: #f1f5f6;
+}
+
+/* navbar */
+.navbar {
+  background-color: transparent !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 100vh;
+  background-image: url(./img/jumboimg.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+.jumbotron h1 {
+  margin: auto;
+}
+
+/* about section */
+.about {
+  background-color: var(--section-color);
+  padding: var(--default-padding);
+}
