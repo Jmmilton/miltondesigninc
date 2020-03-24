@@ -7,5 +7,4 @@ window.onscroll = function() {
   } else {
     navbar.classList.remove('scrolled');
   }
-  console.log(window);
 };
