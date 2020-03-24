@@ -7,24 +7,66 @@
 .navbar {
   background-color: transparent !important;
 }
+.fixed-top.scrolled {
+  background-color: rgb(224, 13, 13) !important;
+  transition: background-color 200ms linear;
+}
 
 /* Jumbotron */
 .jumbotron {
   height: 100vh;
-  background-image: url(./img/jumboimg.jpg);
   background-position: center;
   background-size: cover;
   margin-bottom: 0;
-  /* filter: blur(8px);
-  -webkit-filter: blur(8px); */
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
+  background-color: transparent;
+}
+.jumbotron .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./img/jumboimg.jpg);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
-.jumbotron h1 {
-  margin: auto;
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
 }
 
 /* about section */
 .about {
   background-color: var(--section-color);
+  padding: var(--default-padding);
+}
+
+/* Services */
+.services {
+  padding: var(--default-padding);
+}
+
+/* Projects */
+.projects {
+  background-color: var(--section-color);
+  padding: var(--default-padding);
+}
+
+/* Contact */
+.contact {
   padding: var(--default-padding);
 }
