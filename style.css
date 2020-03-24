@@ -101,3 +101,9 @@ h2 {
 .contact {
   padding: var(--default-padding);
 }
+
+/* Footer */
+.footer {
+  background-color: var(--section-color);
+  padding: 30px;
+}
