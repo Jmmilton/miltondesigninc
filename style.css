@@ -90,7 +90,28 @@ h2 {
 .services {
   padding: var(--default-padding);
 }
+.twoCol ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 30px;
+  column-count: 2;
+  column-gap: 30px;
+}
 
+.sec-1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sec-2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.sec-3 img {
+  max-width: 100%;
+  max-height: 100%;
+}
 /* Projects */
 .projects {
   background-color: var(--section-color);
