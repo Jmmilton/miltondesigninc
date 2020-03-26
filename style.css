@@ -90,28 +90,17 @@ h2 {
 .services {
   padding: var(--default-padding);
 }
-.twoCol ul {
-  -moz-column-count: 2;
-  -moz-column-gap: 30px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 30px;
-  column-count: 2;
-  column-gap: 30px;
+
+.services h2 {
+  margin-bottom: 20px;
 }
 
-.sec-1 img {
-  max-width: 100%;
-  max-height: 100%;
+.slideImg {
+  display: block;
+  margin: 0 auto;
+  height: 350px;
 }
 
-.sec-2 img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.sec-3 img {
-  max-width: 100%;
-  max-height: 100%;
-}
 /* Projects */
 .projects {
   background-color: var(--section-color);
@@ -127,4 +116,19 @@ h2 {
 .footer {
   background-color: var(--section-color);
   padding: 30px;
+}
+
+/* Carousel */
+
+.carousel-inner {
+  min-height: 370px;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  background-color: lightgrey;
+  margin-top: 10px;
 }
