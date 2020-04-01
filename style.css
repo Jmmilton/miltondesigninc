@@ -148,12 +148,6 @@ h2 {
   margin-top: 10px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  margin: -150px;
-  /* background-color: red; */
-}
-
 .arrow {
   color: hsla(240, 2%, 61%, 0.95);
 }
@@ -168,16 +162,8 @@ h2 {
   opacity: 1;
 }
 
-@media screen and (max-width: 992px) {
-  /* .row {
+@media screen and (max-width: 1200px) {
+  .row {
     flex-direction: column;
-  } */
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none;
   }
 }
-
-/* @media only screen and (max-width: 1024px) {
-  .lae-container button.slick-prev, .lae-container button.slick-next {
-    display: block !important; } } */
