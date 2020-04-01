@@ -172,4 +172,12 @@ h2 {
   .row {
     flex-direction: column;
   }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
 }
+
+/* @media only screen and (max-width: 1024px) {
+  .lae-container button.slick-prev, .lae-container button.slick-next {
+    display: block !important; } } */
