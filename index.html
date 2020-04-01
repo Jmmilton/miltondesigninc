@@ -16,11 +16,12 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
     <title>Milton Design Inc.</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#top">Milton Design Inc.</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -32,12 +33,8 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div
-        class="collapse navbar-collapse d-flex justify-content-between"
-        id="navbarTogglerDemo01"
-      >
-        <a class="navbar-brand" href="#top">Milton Design Inc.</a>
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="nav navbar-nav navbar-right text-center flex-nowrap ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#about">About</a>
           </li>
@@ -68,24 +65,14 @@
       <div class="container">
         <h2>About</h2>
         <div class="row">
-          <div class="col-md-6">
-            <p>
-              Creating spaces that are functional, as well as aesthetically
-              pleasing, is the specialty of Milton Design Inc.
-            </p>
-            <p>
-              Your project needs can be accommodated with a full range of
-              services including preliminary concept drawings to complete
-              project management of construction.
-            </p>
-            <p>
-              Our Motto at is Milton Design Inc. takes pride in integrating
-              facilities & people with exemplary service
-            </p>
-            <p>We are certified in NCIDQ, Bill 124 Small Building and PMP</p>
+          <div class="col-lg-6 col-12 my-auto">
+            <p>The success of any new project is the strength, cooperation and integrity of the team.  We, at Milton Design Inc., are team players, ready for any challenge.</p>
+            <p>Your project needs can be accommodated with a full range of services, including preliminary concept drawings to complete project management of the assignment.</p>
+            <p>We take pride in integrating facilities with people.</p>
+            <p>We are certified in NCIDQ (National Council of Interior Design Qualification), Bill 124 (Small Buildings) and PMP (Project Management Professional).  We are registered members of ARIDO (Association of Registered Interior Designers of Ontario)  and active members of IDC (Interior Designers of Canada).</p>
           </div>
-          <div class="col-md-6">
-            <img src="http://placeimg.com/640/360/tech" />
+          <div class="col-lg-6 col-12">
+            <img class="img-fluid" src="http://placeimg.com/640/360/tech" />
           </div>
         </div>
       </div>
@@ -111,7 +98,7 @@
                 </ul>
               </div>
               <div>
-                <img class="slideImg" src="./img/Section1.jpg">
+                <img class="slideImg img-fluid" src="./img/Section1.jpg">
               </div>
             </div>
           </div>
@@ -126,7 +113,7 @@
                   </ul>
               </div>
               <div>
-                <img class="slideImg" src="./img/Section2.jpg">
+                <img class="slideImg img-fluid" src="./img/Section2.jpg">
               </div>
             </div>
           </div>
@@ -144,17 +131,19 @@
                   </ul>
               </div>
               <div>
-                <img class="slideImg" src="./img/Section3.jpg">
+                <img class="slideImg img-fluid" src="./img/Section3.jpg">
               </div>
             </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
+          <span class="fas fa-angle-left fa-2x arrow" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a> 
+          <span class="fas fa-angle-right fa-2x arrow"></span>
+          <span class="sr-only">Previous</span>
+        </a>
       </div>
     </section>
 
@@ -163,7 +152,7 @@
         <div class="row">
           <div class="col-md-6">
             <h2>Projects</h2>
-            <img src="https://ipsumimage.appspot.com/640x360" />
+            <img class="img-fluid" src="https://ipsumimage.appspot.com/640x360" />
           </div>
         </div>
       </div>
@@ -175,7 +164,6 @@
           <div class="col-md-6">
             <h2>Contact Us</h2>
             <p>Feel free to send us an email or call us for more information</p>
-            <p>Phone: <a href="tel:647-934-8547">647-934-8547</a></p>
             <div class="container">
               <form>
                 <div class="form-group row">
@@ -196,13 +184,13 @@
           <div class="col-md-4">
             <h3>Contact</h3>
             <p>
-              email@email.com
+              nadia@miltondesign.ca
             </p>
             <p>
-              <a href="tel:647-934-8547">647-934-8547</a>
+              <a href="tel:416-934-8547"><i class="fas fa-phone-alt fa-2x"></i></a>
             </p>
           </div>
-          <div class="col-md-4 offset-md-4">
+          <div class="col-md-4 offset-md-4 text-center justify-content-right">
             <ul>
               <li>
                 <a href="#about">About</a>

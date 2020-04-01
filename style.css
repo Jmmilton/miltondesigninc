@@ -34,7 +34,7 @@ h2 {
 
 .scrolled {
   background-color: var(--section-color) !important;
-  transition: background-color 200ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: background-color 200ms ease-in-out;
   color: black !important;
 }
 
@@ -86,6 +86,9 @@ h2 {
   padding: var(--default-padding);
 }
 
+.about p {
+}
+
 /* Services */
 .services {
   padding: var(--default-padding);
@@ -111,11 +114,23 @@ h2 {
 .contact {
   padding: var(--default-padding);
 }
+.contact button {
+  background-color: hsla(240, 2%, 61%, 0.95);
+  border-color: hsla(240, 2%, 61%, 0.95);
+}
+.contact button:hover {
+  background-color: hsl(0, 0%, 74%);
+  border-color: hsla(240, 2%, 61%, 0.95);
+}
 
 /* Footer */
 .footer {
   background-color: var(--section-color);
   padding: 30px;
+}
+
+.footer li {
+  list-style-type: none;
 }
 
 /* Carousel */
@@ -129,6 +144,32 @@ h2 {
 }
 
 .carousel-indicators li {
-  background-color: lightgrey;
+  background-color: hsla(240, 2%, 61%, 0.95);
   margin-top: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin: -150px;
+  /* background-color: red; */
+}
+
+.arrow {
+  color: hsla(240, 2%, 61%, 0.95);
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+  outline: none;
+  opacity: 0.5;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
 }
