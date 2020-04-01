@@ -168,10 +168,10 @@ h2 {
   opacity: 1;
 }
 
-@media screen and (max-width: 600px) {
-  .row {
+@media screen and (max-width: 992px) {
+  /* .row {
     flex-direction: column;
-  }
+  } */
   .carousel-control-prev,
   .carousel-control-next {
     display: none;
