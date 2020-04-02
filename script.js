@@ -37,3 +37,5 @@ window.onscroll = function() {
     }
   }
 })();
+
+localStorage.clear();
