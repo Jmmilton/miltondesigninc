@@ -173,9 +173,18 @@ h2 {
   opacity: 1;
 }
 
+/* Footer */
+
 .fas {
   color: black;
+  margin-right: 8px;
 }
+
+.footer a {
+  color: black;
+}
+
+/* Media Query */
 
 @media screen and (max-width: 1500px) {
   .carousel-control-prev,
@@ -189,3 +198,8 @@ h2 {
     flex-direction: column;
   }
 }
+
+/* @media screen and (max-width: 1500px) {
+.fa-phone-alt:hover {
+  text-decoration: none !important;
+} */
