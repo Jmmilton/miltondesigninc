@@ -9,6 +9,14 @@ window.onscroll = function() {
   }
 };
 
+$('.navbar-collapse a').click(function() {
+  $('.navbar-collapse').collapse('hide');
+});
+
+$('body').on('click', function() {
+  $('.navbar-collapse').collapse('hide');
+});
+
 // Cache Buster
 
 (function() {
