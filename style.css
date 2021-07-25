@@ -33,6 +33,7 @@ h2 {
 .navbar-brand {
   color: black !important;
   font-size: 22px;
+  font-family: "Playfair Display", serif;
 }
 
 .nav-link:hover,
