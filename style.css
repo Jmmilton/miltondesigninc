@@ -249,5 +249,6 @@ h2 {
 @media (max-width: 767px) {
   .masonry {
     column-count: 1;
+    max-width: 92%;
   }
 }
